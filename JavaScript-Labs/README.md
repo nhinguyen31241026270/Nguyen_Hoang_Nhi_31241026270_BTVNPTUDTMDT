@@ -47,11 +47,11 @@ Portfolio dùng HTML/CSS thuần và ảnh cục bộ, không cần tải font h
 
 ## GitHub Pages
 
-Đang triển khai từ nhánh main, thư mục gốc của repository. Địa chỉ portfolio dự kiến:
+Đã triển khai từ nhánh main, thư mục gốc của repository.
 
-https://nhinguyen31241026270.github.io/Nguyen_Hoang_Nhi_31241026270_BTVNPTUDTMDT/JavaScript-Labs/
+[Truy cập portfolio JavaScript Labs](https://nhinguyen31241026270.github.io/Nguyen_Hoang_Nhi_31241026270_BTVNPTUDTMDT/JavaScript-Labs/)
 
-Trạng thái sẽ được xác nhận sau khi GitHub Pages xây dựng xong và kiểm tra truy cập.
+Đã kiểm tra 40 đường dẫn công khai, gồm portfolio, 3 mục lục Lab, 29 trang Exercise, tài nguyên chính và trang Tuần 3: tất cả trả HTTP 200. Các thao tác DOM/sự kiện/hiệu ứng đã được sinh viên chạy thử cục bộ; kiểm tra HTTP không thay thế việc thử tương tác trên bản trực tuyến. Bài cũ trong Tuần 3 được giữ nguyên.
 
 ## Nguồn
 
