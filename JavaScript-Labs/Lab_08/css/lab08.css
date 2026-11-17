@@ -1,0 +1,85 @@
+
+.movingDiv{
+border: solid 1px black;
+position:relative;
+margin:30px 5px;
+padding:20px 5px;
+width:30%;
+display:inline;
+line-height:60px;
+}
+
+fieldset{
+border: solid 1px #777777;
+}
+
+.required{
+background-color:#EEEE55;
+}
+
+th {
+    width: 6em;
+    height: 3em;
+    text-align: center;
+}
+
+td {
+    width: 6em;
+    height: 2em;
+    text-align: center;
+}
+
+em { color: red; font-style: italic; }
+
+tr.normal {
+
+    background-color: #E4F8D3;
+}
+tr.normal td, tr.normal th, tr.total th, tr.total td {
+    text-align: right;
+    width: 5em;
+    height: 0.75em;
+    padding: 0.5em;
+    color: #5A574E;
+}
+
+tr.total {
+    background-color: #96DD4F;
+}
+
+tr.total th, tr.total td {
+        font-weight: bold;
+    color: #000000;
+}
+
+.box {
+    width:20em;
+    margin:  20px auto;
+    padding: 0.5em;
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    background-color:#fff ;
+    text-align: left;
+}
+
+.boxImg {
+    float: left;
+    padding: 5px;
+}
+/* Bổ sung bố cục thích ứng; giữ nội dung và lớp CSS của bài gốc. */
+* { box-sizing: border-box; }
+body { margin: 0 auto; padding: 24px; max-width: 1100px; font-family: Arial, sans-serif; line-height: 1.6; color: #1d2939; background: #f6f8fb; }
+a { color: #1749a3; }
+a:focus-visible { outline: 3px solid #d97706; outline-offset: 3px; }
+img { max-width: 100%; height: auto; }
+.movingDiv { display: inline-block; vertical-align: top; margin: 12px 5px; line-height: 1.6; min-width: 130px; }
+.box { max-width: 100%; overflow-wrap: anywhere; }
+table { border-collapse: collapse; max-width: 100%; }
+th, td { width: auto; min-width: 2em; padding: .4em; }
+.lab-home main { max-width: 850px; margin: auto; }
+.exercise-links { padding: 0; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.exercise-links a { display: block; height: 100%; padding: 16px; border: 1px solid #ced8e5; border-radius: 10px; background: white; text-decoration: none; }
+.exercise-links strong { display: block; }
+.lab-nav { margin-bottom: 18px; }
+@media (max-width: 600px) { body { padding: 14px; } h1 { font-size: 1.65rem; } .exercise-links { grid-template-columns: 1fr; } .movingDiv { width: 100%; margin: 8px 0; } th, td { min-width: 0; padding: .25em; font-size: .85rem; } }
